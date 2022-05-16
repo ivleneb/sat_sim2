@@ -1,10 +1,10 @@
 # Build
-git clone https://github.com/ivleneb/sat_sim2.git project
-cd project/src/
-make all
+git clone https://github.com/ivleneb/sat_sim2.git project <br>
+cd project/src/ <br>
+make all <br>
 
 # Run
-cd project/bin/
+cd project/bin/ <br>
 ./main
 
 # Docker image
