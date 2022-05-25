@@ -1,5 +1,5 @@
-#ifndef TASK_H
-#define TASK_H
+#ifndef TASK_HPP
+#define TASK_HPP
 #include <string>
 #include <vector>
 #include <iostream>
@@ -20,4 +20,4 @@ public:
 	friend std::ostream& operator << (std::ostream &out, const Task &t);
 };
 std::ostream& operator << (std::ostream &out, const Task &t);
-#endif // TASK_H
+#endif // TASK_HPP

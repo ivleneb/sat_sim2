@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include <sys/wait.h>
-#include "task.h"
-#include "satelite.h"
-#include "estacionterrena.h"
+#include "task.hpp"
+#include "satelite.hpp"
+#include "estacionterrena.hpp"
 #include <unistd.h>
 
 int main(){

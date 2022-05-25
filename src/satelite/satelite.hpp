@@ -1,9 +1,9 @@
-#ifndef SATELITE_H
-#define SATELITE_H
+#ifndef SATELITE_HPP
+#define SATELITE_HPP
 #include <string>
 #include <vector>
 #include <iostream>
-#include "../task/task.h"
+#include "task.hpp"
 
 class Satelite{
 	std::string name;
@@ -27,4 +27,4 @@ public:
 };
 
 std::ostream& operator << (std::ostream &out, const Satelite &s);
-#endif // SATELITE.H
+#endif // SATELITE_HPP

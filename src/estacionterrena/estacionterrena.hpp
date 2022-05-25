@@ -1,8 +1,8 @@
-#ifndef ESTACIONTERRENA_H
-#define ESTACIONTERRENA_H
+#ifndef ESTACIONTERRENA_HPP
+#define ESTACIONTERRENA_HPP
 #include <vector>
-#include "../satelite/satelite.h"
-#include "../task/task.h"
+#include "satelite.hpp"
+#include "task.hpp"
 
 class EstacionTerrena{
 	std::string name;
@@ -18,4 +18,4 @@ public:
 	void work(void);
 	//const& std::vector<Task *> get
 };
-#endif // ESTACIONTERRENA_H
+#endif // ESTACIONTERRENA_HPP

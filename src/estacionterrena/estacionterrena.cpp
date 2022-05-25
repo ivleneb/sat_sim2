@@ -1,4 +1,4 @@
-#include "estacionterrena.h"
+#include "estacionterrena.hpp"
 #include <iostream>
 #include <algorithm>
 
